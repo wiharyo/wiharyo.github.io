@@ -25,7 +25,7 @@
         }
 
         .page {
-            max-width: 800px; /* Sedikit diperlebar biar lega di desktop */
+            max-width: 800px;
             padding: 40px 20px; 
             margin: 0 auto;
             background: white;
@@ -66,7 +66,6 @@
             margin: 0 8px;
         }
         
-        /* Style khusus buat pangkat */
         .tagline sup {
             font-size: 0.6em;
             vertical-align: super;
@@ -91,6 +90,7 @@
             margin-right: 15px;
             border-bottom: 1px dotted var(--accent-color);
             transition: color 0.2s;
+            cursor: pointer;
         }
 
         .social-links a:hover {
@@ -113,7 +113,7 @@
         .section {
             display: flex;
             margin-bottom: 30px;
-            flex-wrap: wrap; /* Biar responsif di HP */
+            flex-wrap: wrap;
         }
 
         .left-col {
@@ -208,7 +208,6 @@
             display: inline-block;
         }
 
-        /* Responsif buat HP */
         @media (max-width: 600px) {
             .section { display: block; }
             .left-col { 
@@ -242,9 +241,13 @@
             </div>
 
             <div class="social-links">
-                <a href="https://wa.me/628174119997" target="_blank">WhatsApp</a>
-                <a href="https://linkedin.com/in/wiharyo" target="_blank">LinkedIn</a>
-                <a href="https://instagram.com/wiharyo" target="_blank">Instagram</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=at.wiharyo@gmail.com" target="_blank" title="at.wiharyo@gmail.com">Email</a>
+                
+                <a href="https://wa.me/628174119997" target="_blank" title="+62 817-411-9997">WhatsApp</a>
+                
+                <a href="https://linkedin.com/in/wiharyo" target="_blank" title="linkedin.com/in/wiharyo">LinkedIn</a>
+                
+                <a href="https://instagram.com/wiharyo" target="_blank" title="@wiharyo">Instagram</a>
             </div>
         </header>
 
@@ -367,6 +370,3 @@
 
 </body>
 </html>
-
-
-
